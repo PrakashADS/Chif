@@ -1,0 +1,135 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open chif url",
+        "description": "",
+        "id": "chif-automation-test;open-chif-url",
+        "after": [
+          {
+            "result": {
+              "duration": 132569,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ChifUsersModule.Screenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8004521316,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open chif url",
+            "match": {
+              "location": "ChifUsersModule.Chif_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Login using username and password",
+        "description": "",
+        "id": "chif-automation-test;login-using-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 80967,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ChifUsersModule.Screenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6903662811,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I login with excel row \"1\" dataset",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                }
+              ],
+              "location": "ChifUsersModule.Chif_login(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Create New Case",
+        "description": "",
+        "id": "chif-automation-test;create-new-case",
+        "after": [
+          {
+            "result": {
+              "duration": 27370,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ChifUsersModule.Screenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122687315883,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Create New Case with excel row \"3\" dataset",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 32
+                }
+              ],
+              "location": "ChifUsersModule.Create_Case(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@NewCase"
+          }
+        ]
+      }
+    ],
+    "name": "Chif Automation Test",
+    "description": "",
+    "id": "chif-automation-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/prakashd/New_Workspace_Automation/Chif/src/test/java/ChifProj/chif.feature"
+  }
+]

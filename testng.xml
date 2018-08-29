@@ -1,0 +1,8 @@
+<suite name="Parallel tests" parallel="tests" thread-count="2" >
+  <test name="Test One" junit="true">
+    <classes>
+      <class name="ChifProj.RunnerChif" />
+    </classes>
+  </test>
+ 
+</suite>
